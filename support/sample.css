@@ -19,3 +19,7 @@ body,th,td {
 table {
   background-color: black;
 }
+
+img {
+	display:block;
+}

@@ -24,7 +24,7 @@
           }
           return false;
         });
-        $.get('sample.dom.html',function(data){
+        $.get('support/sample.dom.html',function(data){
           $('#htmlForSample').html(data.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/\n/g,'<br/>').replace(/ /g,'&nbsp;'));
         });
         $('#selectorField').focus();
